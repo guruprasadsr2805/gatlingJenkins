@@ -125,7 +125,7 @@ class FinalTest extends Simulation{
   def testDuration: Int = getProperty("DURATION", "60").toInt
 
   // other variables
-  var idNumbers = (20 to 1000).iterator
+  var idNumbers = (20 to 99000).iterator
   val rnd = new Random()
   val now = LocalDate.now()
   val pattern = DateTimeFormatter.ofPattern("yyyy-MM-dd")
